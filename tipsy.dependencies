@@ -1,0 +1,32 @@
+[
+  {
+    "remote": "gh",
+    "repository":  "TipsyOs-Devices/device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "10.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "GZR-Kernels/Optimus_Drunk_Beryllium",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "10.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "10.0-beryllium"
+  },
+  {
+    "remote": "gh",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-17.1"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "gwolf2u/android_vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware",
+    "branch": "10.0"
+  }
+]  
