@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tipsy_beryllium.mk
+    $(LOCAL_DIR)/gzosp_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    tipsy_beryllium-user \
-    tipsy_beryllium-userdebug \
-    tipsy_beryllium-eng
+    gzosp_beryllium-user \
+    gzosp_beryllium-userdebug \
+    gzosp_beryllium-eng

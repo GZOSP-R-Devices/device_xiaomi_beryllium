@@ -6,14 +6,12 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common.mk)
-
-# Inherit tipsy GSM telephony parts
-$(call inherit-product, vendor/tipsy/config/gsm.mk)
+# Inherit some common Gzosp stuff.
+$(call inherit-product, vendor/gzosp/config/common.mk)
+$(call inherit-product, vendor/gzosp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := tipsy_beryllium
+PRODUCT_NAME := gzosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
